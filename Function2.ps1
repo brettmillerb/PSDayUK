@@ -23,7 +23,7 @@ function Verb-Noun {
 
     process {
         if ($pscmdlet.ShouldProcess("Target", "Operation")) {
-            
+            'Do some other Stuff'
         }
     }
 
